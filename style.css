@@ -701,7 +701,6 @@ a {
 }
 .header-list-nav {
   display: flex;
-  margin-right: 100px;
 }
 .header-list-nav-li {
   margin-right: 25px;
@@ -721,6 +720,7 @@ a {
 }
 .header-list-main {
   display: flex;
+  justify-content: space-between;
 }
 .header-list-menu-after::after {
   color: #252525;
@@ -743,7 +743,7 @@ a {
 }
 .header-list-main-info-ul li {
   display: flex;
-  margin-bottom: 5px;
+  margin-bottom: 8.5px;
 }
 .header-list-main-info-ul a {
   border-bottom: 1px solid black;
@@ -756,16 +756,12 @@ a {
   font-size: 14px;
 }
 .header-list-main-tools {
-  margin-right: 40px;
+  margin-right: 20px;
 }
 .header-list-main-tools img {
   cursor: pointer;
-  height: 69px;
+  height: 75px;
   margin-right: 15px;
-}
-.header-list-main-tools img:hover {
-  transform: scale(1.1);
-  transition: 0.3s ease;
 }
 
 .header-list-main-time-work {
