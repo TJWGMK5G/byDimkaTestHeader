@@ -674,7 +674,22 @@ a {
   margin-bottom: 30px;
 }
 .header-logo {
+  text-align: center;
   margin-right: 30px;
+  flex: 0 0 210px;
+  height: 123px;
+  background-color: #ffcc00;
+}
+.header-logo-picture {
+  padding-top: 15px;
+  margin-bottom: 15px;
+}
+
+.header-logo-undertext {
+  font-size: 13px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #000000;
 }
 
 .header-list-all {
@@ -708,12 +723,13 @@ a {
   display: flex;
 }
 .header-list-menu-after::after {
+  color: #252525;
   content: "|";
   margin-left: 15px;
 }
 .header-list-main-banner {
   width: 250px;
-  height: 62.8px;
+  height: 75px;
   background-color: #e2e2e2;
   margin-right: 30px;
 }
@@ -727,7 +743,7 @@ a {
 }
 .header-list-main-info-ul li {
   display: flex;
-  margin-bottom: 6px;
+  margin-bottom: 5px;
 }
 .header-list-main-info-ul a {
   border-bottom: 1px solid black;
@@ -761,7 +777,7 @@ a {
   margin-right: 25px;
 }
 .header-list-main-time-tel {
-  margin-bottom: 5px;
+  margin-bottom: 12px;
   font-weight: 700;
   font-size: 25px;
 }
