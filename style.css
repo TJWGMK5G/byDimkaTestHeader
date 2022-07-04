@@ -767,6 +767,7 @@ a {
 
 .header-list-main-time {
   height: 75px;
+  border-bottom: 1px solid #d7d7d7;
 }
 .header-list-main-time-work {
   display: flex;
